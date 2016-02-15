@@ -13,5 +13,16 @@ Check you have permission to write to /usr/local</code></pre>
 <pre><code>npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules</code></pre>
 解决办法: 没有权限。在命令前面加上sudo，第一次不成功多尝试几次。
 
++ build facebook demo-- AwesomeProject出错
+<pre><code> Error building DependencyGraph:
+ TypeError: Cannot read property 'root' of null
+    at index.js:16:60
+    at tryCallOne (/Users/yixiaoluo/AwesomeProject/node_modules/promise/lib/core.js:37:12)
+    at /Users/yixiaoluo/AwesomeProject/node_modules/promise/lib/core.js:123:15
+    at flush (/Users/yixiaoluo/AwesomeProject/node_modules/asap/raw.js:50:29)
+    at nextTickCallbackWith0Args (node.js:453:9)
+    at process._tickCallback (node.js:382:13)</code></pre>
+解决办法: 执行命令brew reinstall watchman，重新安装watchman
+
 ##参考
 https://facebook.github.io/react-native/docs/getting-started.html#content
