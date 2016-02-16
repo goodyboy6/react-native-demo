@@ -1,5 +1,4 @@
-# react-native-demo
-##mac安装过程中出现的问题：
+##mac安装过程React Native中出现的问题
 * brew install watchman 执行错误 
 <pre><code>Warning:You are using OS X 10.11.We do not provide support for this pre-release version.
 Warning: You are using OS X 10.11.
@@ -26,4 +25,4 @@ Check you have permission to write to /usr/local</code></pre>
 
 ##参考
 * https://facebook.github.io/react-native/docs/getting-started.html#content
-* http://reactnative.cn/docs/embedded-app-ios.html#content
+* Pod安装参考： http://reactnative.cn/docs/embedded-app-ios.html#content
