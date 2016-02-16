@@ -1,4 +1,4 @@
-##mac安装过程React Native中出现的问题
+##mac安装React Native过程中出现的问题
 * brew install watchman 执行错误 
 <pre><code>Warning:You are using OS X 10.11.We do not provide support for this pre-release version.
 Warning: You are using OS X 10.11.
